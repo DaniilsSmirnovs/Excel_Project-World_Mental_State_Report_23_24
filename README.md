@@ -1,6 +1,6 @@
 # Excel Mental State of The World Dashboard (2023/24)
 
-![World-Mental-State_Dashboard](https://github.com/user-attachments/assets/e6e64d54-2dd8-473b-83f5-4fe012c77c4f)
+![World-Mental-State_Dashboard](Resourses/Images/Final_Dashboard.gif)
 
 ## Introduction
 
@@ -26,11 +26,11 @@ The following Excel skills were utilized for analysis:
 
 #### 📊 Top 5 Most Struggling Countries - Bar Chart
 
-
+![Top_5_Countries_Chart](Resourses/Images/Top_5_Countries_Chart.png)
 
 #### 🗺️ Country Mental Health Aspects - Map Chart
 
-![EXCEL_xn7nVwUFfR](https://github.com/user-attachments/assets/40e82650-3baa-4987-8e99-34b6249cb8a1)
+![Country_Map](Resourses/Images/Country_Map.gif)
 
 - 🛠️ **Excel Features:** Utilized Excel's map chart feature to plot different aspects of mental function globally.
 - 🎨 **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
