@@ -49,8 +49,12 @@ The following Excel skills were utilized for analysis:
 
 ```
 =INDEX(data,
-  MATCH(1, (data[Country] = country)*(data[Age] = age)*(data[Biological sex] = sex), 0),
-  MATCH("MHQ Score (Average)", data[#Headers], 0)
+  MATCH(1,
+   (data[Country] = country)*
+   (data[Age] = age)*
+   (data[Biological sex] = sex), 0),
+  MATCH("MHQ Score (Average)",
+   data[#Headers], 0)
 )
 ```
 
