@@ -17,12 +17,13 @@ My final dashboard is in [Project_Dashboard.xlsx](Project_Dashboard.xlsx).
 The following Excel skills were utilized for analysis:
 
 - **📉 Charts**
-- **🧮 Formulas, Functions and Conditional Formatting**
+- **🧮 Formulas and Functions**
+- **🚦 Conditional Formatting**
 - **❎ Data Validation**
 
-## 🏗️ Dashboard Build
+## Dashboard Build
 
-### 📉 Charts
+### Charts
 
 #### 📊 Top 5 Most Affected Countries – Bar Chart
 
@@ -42,7 +43,7 @@ The following Excel skills were utilized for analysis:
 - 📊 **Data Representation:** Plotted each country’s score based on available data for the selected mental health aspect.
 - 💡 **Insights Gained:** Made it easy to spot regional differences and see where mental health outcomes are better or worse.
 
-### 🧮 Formulas, Functions and Conditional Formatting
+### 🧮 Formulas and Functions
 
 #### 👥 Average MHQ Score by Country, Age Group and Biological Sex
 
@@ -54,9 +55,11 @@ The following Excel skills were utilized for analysis:
 ```
 
 - 🔍 **Multi-Criteria Lookup:** Retrieves a value based on a match for country, age, and biological sex.
-- 📊 **Array Formula:** Combines `INDEX()` and `MATCH()` to search across multiple columns simultaneously. The multiplication operator `*` is used to simulate an AND condition, so the formula only returns a match when all three criteria are met in the same row.
+- 📊 **Array Formula:** Combines `INDEX()` and `MATCH()` to search across multiple columns simultaneously with the multiplication operator `*` being used to only returns a match when all three criteria are met in the same row.
 - 🎯 **Targeted Value Retrieval:** Returns the MHQ Score (Average) for the matching demographic combination.
 - 🔢 **Formula Purpose:** Fetches a personalised MHQ Score from the dataset based on user selections.
+
+#### 🏷️ MHQ Score Classification 
 
 ```
 =IFS(AND(C2 >= -100,C2 < -50), "Distressed",
@@ -67,3 +70,7 @@ The following Excel skills were utilized for analysis:
      AND(C2 >= 150,C2 < 200), "Thriving")
 ```
 
+- 🔍 **Conditional Mapping:** Uses IFS() to categorise MHQ score ranges into descriptive labels.
+- 📊 **Range-Based Logic:** Applies multiple AND() conditions to check which score range MHQ Score falls into.
+- 🏷️ **Category Assignment:** Assigns a mental health state ("Distressed", "Struggling", etc.) based on the score.
+- 🎯 **Formula Purpose:** Automatically labels each MHQ score with a corresponding wellbeing category for clearer interpretation in the dashboard.
