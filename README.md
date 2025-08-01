@@ -1,4 +1,4 @@
-# Excel Mental State of The World Dashboard (2023/24)
+# Excel Dashboard: Mental State of The World In 2023/24
 
 ![World-Mental-State_Dashboard](Resourses/Images/Final_Dashboard.gif)
 
