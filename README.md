@@ -18,12 +18,11 @@ The following Excel skills were utilized for analysis:
 
 - **📉 Charts**
 - **🧮 Formulas and Functions**
-- **🚦 Conditional Formatting**
 - **❎ Data Validation**
 
 ## Dashboard Build
 
-### Charts
+### 📉 Charts
 
 #### 📊 Top 5 Most Affected Countries – Bar Chart
 
@@ -78,3 +77,12 @@ The following Excel skills were utilized for analysis:
 - 📊 **Range-Based Logic:** Applies multiple AND() conditions to check which score range MHQ Score falls into.
 - 🏷️ **Category Assignment:** Assigns a mental health state ("Distressed", "Struggling", etc.) based on the score.
 - 🎯 **Formula Purpose:** Automatically labels each MHQ score with a corresponding wellbeing category for clearer interpretation in the dashboard.
+
+### ❎ Data Validation
+
+🔍 **Filtered List**
+
+- 🔒 **Enhanced Data Validation:** Implementing the filtered list as a data validation rule for the Mental Health Parameter, Country, Age Group and Biological Sex in the Data tab ensures
+  - 🎯 User input is restricted to predefined, validated schedule types
+  - 🚫 Incorrect or inconsistent entries are prevented
+  - 👥 Overall usability of the dashboard is enhanced
