@@ -76,7 +76,12 @@ The following Excel skills were utilized for analysis:
 - 🔍 **Conditional Mapping:** Uses IFS() to categorise MHQ score ranges into descriptive labels.
 - 📊 **Range-Based Logic:** Applies multiple AND() conditions to check which score range MHQ Score falls into.
 - 🏷️ **Category Assignment:** Assigns a mental health state ("Distressed", "Struggling", etc.) based on the score.
-- 🎯 **Formula Purpose:** Automatically labels each MHQ score with a corresponding wellbeing category for clearer interpretation in the dashboard.
+- 🎯 **Formula Purpose:** Automatically labels each MHQ score with a corresponding mental state category for clearer interpretation in the dashboard.
+
+📉 **Dashboard Implementation**
+
+
+🚦 **Conditional Formatting**: Used to enhance the visual presentation of each mental state category.
 
 ### ❎ Data Validation
 
