@@ -88,7 +88,7 @@ The following Excel skills were utilized for analysis:
 
 🔍 **Filtered List**
 
-- 🔒 **Enhanced Data Validation:** Implementing the filtered list as a data validation rule for the Mental Health Parameter, Country, Age Group and Biological Sex in the Data tab ensures
+- 🔒 **Enhanced Data Validation:** Implementing the filtered list as a data validation rule for the Mental Health Parameter, Country, Age Group and Biological Sex in the Data tab ensures:
   - 🎯 User input is restricted to predefined, validated schedule types
   - 🚫 Incorrect or inconsistent entries are prevented
   - 👥 Overall usability of the dashboard is enhanced
