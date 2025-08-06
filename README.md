@@ -18,7 +18,7 @@ The following Excel skills were utilized for analysis:
 
 - **📉 Charts**
 - **🧮 Formulas and Functions**
-- **❎ Data Validation**
+- **✅ Data Validation**
 
 ## Dashboard Build
 
@@ -26,7 +26,7 @@ The following Excel skills were utilized for analysis:
 
 #### 📊 Top 5 Most Affected Countries – Bar Chart
 
-![Top_5_Countries_Chart](Resourses/Images/Top_5_Countries_Chart.png)
+![Top_5_Countries_Chart](Resourses/Images/Top_5_Countries_Chart.gif)
 
 - 🛠️ **Excel Features:** Used bar chart feature with formatted population percentage values and optimised layout for clarity.
 - 🎨 **Design Choice:** Chose a horizontal bar chart to clearly show which countries have the highest proportion of people struggling with the selected mental health aspect.
@@ -76,18 +76,23 @@ The following Excel skills were utilized for analysis:
 - 🔍 **Conditional Mapping:** Uses IFS() to categorise MHQ score ranges into descriptive labels.
 - 📊 **Range-Based Logic:** Applies multiple AND() conditions to check which score range MHQ Score falls into.
 - 🏷️ **Category Assignment:** Assigns a mental health state ("Distressed", "Struggling", etc.) based on the score.
-- 🎯 **Formula Purpose:** Automatically labels each MHQ score with a corresponding mental state category for clearer interpretation in the dashboard.
+- 🔢 **Formula Purpose:** Automatically labels each MHQ score with a corresponding mental state category for clearer interpretation in the dashboard.
+- 🚦 **Conditional Formatting**: Used to enhance the visual presentation of each mental state category.
 
-📉 **Dashboard Implementation**
+#### 📉 Dashboard Implementation
+
+![MHQ_Score_Dashboard_Implementation](Resourses/Images/MHQ_score.gif)
 
 
-🚦 **Conditional Formatting**: Used to enhance the visual presentation of each mental state category.
-
-### ❎ Data Validation
+### ✅ Data Validation
 
 🔍 **Filtered List**
 
-- 🔒 **Enhanced Data Validation:** Implementing the filtered list as a data validation rule for the Mental Health Parameter, Country, Age Group and Biological Sex in the Data tab ensures
+- 🔒 **Enhanced Data Validation:** Implementing the filtered list as a data validation rule for the Mental Health Parameter, Country, Age Group and Biological Sex in the Data tab ensures:
   - 🎯 User input is restricted to predefined, validated schedule types
   - 🚫 Incorrect or inconsistent entries are prevented
   - 👥 Overall usability of the dashboard is enhanced
+
+## Conclusion
+
+I created this dashboard to highlight key insights from the Mental State of the World 2023/24 report by Sapien Labs. Using data from the report, the dashboard explores how factors such as age, gender, and region relate to mental wellbeing. It offers an interactive way to better understand global mental health patterns and encourages reflection on the social and demographic influences shaping them.
